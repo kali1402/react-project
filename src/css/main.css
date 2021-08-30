@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+}
+
+.App .srd-diagram {
+  height: 800px;
+}
+
+.App .tray {
+  width: 200px;
+  height: 800px;
+  background: grey;
+}
+
+.App .body {
+  height: 800px;
+  width: 800px;
+  background: #1a1a1a;
+}
+
+.App .srd-default-node {
+  border: none;
+}
+
+.App .Factory {
+  background: yellow;
+  margin: 8px;
+  padding: 8px;
+}
+
+.App .srd-default-port {
+  padding: 8px;
+}
+
+.App .srd-default-port--in .name {
+  margin-left: 8px;
+}
+
+.App .srd-default-port--out .name {
+  margin-right: 8px;
+}
+
+.App .srd-port {
+  background: rgba(255, 255, 255, 0.5);
+}
