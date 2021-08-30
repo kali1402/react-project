@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useDrop } from "react-dnd";
 import styled from "styled-components";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+import Test from "./Test";
 
 const TestDiv1 = styled.div`
   position: fixed;
@@ -67,13 +68,11 @@ const DragandDrop = () => {
                     </div>
                   </>
                 ))}
-
-                <div
+                <Test test={"Input Drag here"}></Test>
+                {/* <div
                   className={`drop-area ${canDrop ? "highlight" : ""}`}
                   ref={drop}
-                >
-                  Input Drag here
-                </div>
+                ></div> */}
               </Container>
             </TransformComponent>
           </TestDiv1>
